@@ -1,54 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-body {
-  background-color: black;
+
+
+form {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
 }
 
-.titulo {
-  color: white;
-  text-align: center;
-  font-family: Raleway, Verdana, Tahoma, sans-serif;
-  margin: 25px 0;
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #333;
 }
 
-.formulario {
-  border: 1px solid white;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  max-width: 500px;
-}
-
-input {
-  min-width: 50px;
-  max-width: 300px;
-  margin: 25px auto;
-  border-radius: 5px;
-  padding: 5px;
-}
-
-input[type="text"], input[type="number"] {
-  font-family: Raleway, Verdana, Tahoma, sans-serif;
-  font-size: clamp(16px, 8vw, 32px);
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 14px;
 }
 
 button {
-  width: 100px;
-  margin: 0 auto 25px;
-  font-size: clamp(16px, 8vw, 32px);
-  font-family: Raleway, Verdana, Tahoma, sans-serif;
-  background-color: green;
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #4CAF50;
   color: white;
-  border: 1px solid black;
-  border-radius: 5px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: lime;
-  color: black;
-}
-
-.mensaje {
-  color: white;
+  background-color: #45a049;
 }
