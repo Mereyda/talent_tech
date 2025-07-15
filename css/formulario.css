@@ -104,4 +104,26 @@ footer {
 #volver-inicio:hover {
   background-color: #555;
 }
+/* -------------------------------------------------------------------------- */
+/*                          APLICANDO MEDIAS QUERIES                          */
+/* -------------------------------------------------------------------------- */
 
+@media (max-width: 680px) {
+  .volver-inicio-container {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+#volver-inicio {
+  padding: 15px 15px;
+  font-size: 10px;
+  color: rgb(194, 41, 169);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 12%;
+  height: 12%;
+}
+
+}
