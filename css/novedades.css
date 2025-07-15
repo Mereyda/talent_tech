@@ -117,13 +117,14 @@ h3{
 
 #volver-inicio {
   padding: 25px 25px;
-  font-size: 25px;
-  /* background-color: #333; */
+  font-size: 15px;
   color: rgb(194, 41, 169);
   border: none;
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  width: 8%;
+  height: 8%;
 }
 
 #volver-inicio:hover {

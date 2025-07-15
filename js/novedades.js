@@ -39,7 +39,7 @@ let novedades = [
 let novedadesContainer = document.getElementById('novedades');
 let inicio = document.getElementById('inicio');
 
-//creo un contenedor individual para cada producto
+//creo un contenedor individual para cada novedad
 let contenedorNovedades = document.createElement('div');
 
 contenedorNovedades.classList.add('contenedor_producto');
