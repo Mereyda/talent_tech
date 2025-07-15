@@ -84,3 +84,24 @@ footer {
     gap: 5rem;
 
 }
+.volver-inicio-container {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#volver-inicio {
+  padding: 5px 25px;
+  font-size: 25px;
+  color: rgb(194, 41, 169);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 10%;
+  height: 10%;
+  font-size: 15px;
+}
+
+#volver-inicio:hover {
+  background-color: #555;
+}
+

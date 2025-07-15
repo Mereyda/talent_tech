@@ -25,5 +25,12 @@ function mostrarMensaje(event) {
     document.getElementById('mensaje').innerText += " Eres menor de edad " + mensajeUsuario);
   }
 }
+document.addEventListener("DOMContentLoaded", () => {
+
+  const volverInicioBtn = document.getElementById('volver-inicio');
+  volverInicioBtn.addEventListener('click', () => {
+    window.location.href = '../index.html';
+  });
+});
 
 
